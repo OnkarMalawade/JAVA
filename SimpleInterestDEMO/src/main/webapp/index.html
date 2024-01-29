@@ -5,6 +5,18 @@
 <title>Insert title here</title>
 </head>
 <body>
+  <h1>Simple Interest Calculator</h1>
+    <form action="calculate.jsp" method="post">
+        <label for="principal">Principal Amount:</label>
+        <input type="text" id="principal" name="principal" required><br>
 
+        <label for="rate">Interest Rate:</label>
+        <input type="text" id="rate" name="rate" required><br>
+
+        <label for="time">Time (in years):</label>
+        <input type="text" id="time" name="time" required><br>
+
+        <input type="submit" value="Calculate">
+    </form>
 </body>
 </html>
