@@ -23,11 +23,15 @@ public class ListDemo {
 			lst.add(k);
 		}
 		for (String str : lst) {
-			System.out.println(str);
+			System.out.println(" " + str);
 		}
 		Collections.sort(lst);	
 		for (String str : lst) {
-			System.out.println(str);
+			System.out.println(" " + str);
+		}
+		Collections.reverse(lst);
+		for(String str : lst) {
+			System.out.print(" " + str);
 		}
 		sc.close();
 	}
